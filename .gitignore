@@ -30,3 +30,6 @@ Homestead.json
 auth.json
 
 /db_data
+
+.idea/
+*.iml
