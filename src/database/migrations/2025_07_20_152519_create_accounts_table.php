@@ -20,10 +20,6 @@ return new class extends Migration
             $table->timestampsTz();
 
         });
-
-        DB::statement(
-            'ALTER TABLE accounts ADD CONSTRAINT balance_non_negative CHECK (balance >= 0)'
-        );
     }
 
     /**
